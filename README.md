@@ -11,9 +11,9 @@ Built by [Erron AI](https://erron.ai).
 
 ## Quickstart
 ```bash
-python3 -m venv .venv
+uv venv .venv
 source .venv/bin/activate
-pip install -e .
+uv pip install -e .
 python -m agent_security_playbook.cli --help
 python -m unittest discover -s tests -v
 ```
