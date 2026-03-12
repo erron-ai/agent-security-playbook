@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-security-playbook"
+version = "0.1.0"
+description = "Security best practices for prompt injection, supply chain risk, data leakage, and access control."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/agent-security-playbook"
+Issues = "https://github.com/erron-ai/agent-security-playbook/issues"
+
+[project.scripts]
+agent-security-playbook = "agent_security_playbook.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
