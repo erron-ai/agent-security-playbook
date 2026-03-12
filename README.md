@@ -2,7 +2,7 @@
 
 Security best practices for prompt injection, supply chain risk, data leakage, and access control.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
